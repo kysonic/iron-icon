@@ -20,3 +20,9 @@ The `iron-icon` element displays an icon. By default an icon renders as a 24px s
 <iron-icon icon="menu"></iron-icon>
 <iron-icon src="demo/location.png"></iron-icon>
 ```
+
+Mixin addeed: 
+
+    --iron-icon-components-mixin: {
+        ...
+    }
