@@ -99,6 +99,16 @@ Custom property | Description | Default
         height: var(--iron-icon-height, 24px);
         @apply(--iron-icon);
       }
+        
+     :host svg circle,
+     :host svg rect,   
+     :host svg line,
+     :host svg polygon,   
+     :host svg polyline,
+     :host svg path {
+        @apply(--iron-icon-components-mixin)
+     }  
+        
     </style>
   </template>
 
